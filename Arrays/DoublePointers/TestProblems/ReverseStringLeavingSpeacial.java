@@ -1,5 +1,4 @@
 public class ReverseStringLeavingSpeacial {
-    
 	public static void main(String[] args) {
 		String str = "Hello-wo-rld";
 		char[] a = str.toCharArray();

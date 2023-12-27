@@ -1,3 +1,4 @@
+// Given two arrays find the intersection of the two arrays
 public class Intersection {
     public static void intersection(int[] a1 , int[] a2){
         int i = 0 , j = 0;

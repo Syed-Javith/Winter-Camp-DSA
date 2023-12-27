@@ -1,3 +1,4 @@
+// Given a binary string(0's and 1's) find the longest substring length where you can flip atmost 1 bit to make the substringas 1
 public class MaxLengthOfBinaryStringWithFlippingOneTime {
     public static void main(String[] args) {
 		String str = "11011000111";

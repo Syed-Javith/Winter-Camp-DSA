@@ -1,3 +1,4 @@
+// Given an array find the pair with given difference K 
 public class PairWithDifference {
     public static boolean pairWithDifference(int[] arr, int target) {
         int i = 0, j = 1;

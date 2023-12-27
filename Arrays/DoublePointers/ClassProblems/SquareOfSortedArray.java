@@ -1,3 +1,4 @@
+// Given an array arrange the array in the order of its element square 
 public class SquareOfSortedArray {
     public static void squareOfSortedArray(int[] arr) {
         int k = arr.length - 1;

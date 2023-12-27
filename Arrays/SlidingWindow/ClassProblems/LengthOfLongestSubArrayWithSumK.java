@@ -1,3 +1,4 @@
+// Given an array nums and integer k find the length of the longest subarray with Sum less than k
 public class LengthOfLongestSubArrayWithSumK
 {
 	public static void main(String[] args) {

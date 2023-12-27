@@ -1,3 +1,4 @@
+// Given an array nums and integer k find the length of the longest subarray with Product less than k
 public class SubArrayWithProductK {
     public static void main(String[] args) {
 		int[] nums = { 10,5,2,6};

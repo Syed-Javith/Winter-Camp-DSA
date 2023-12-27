@@ -31,9 +31,7 @@ public class MergeSort {
             a[k] = R[rptr];
             rptr++;
             k++;
-        }
-        
-        
+        }    
     }
     
     public static void printArray(int[] a){
@@ -41,7 +39,6 @@ public class MergeSort {
             System.out.print(a[i] + " ");
         }
     }
-    
     
     public static void mergeSort(int[] a , int l , int h){
         if(l<h){
