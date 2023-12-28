@@ -17,7 +17,7 @@ public class SplitArrayUsingPrefixSum {
 		}
 		int count = 0 ;
 		for(int i = 0 ; i < n-1 ; i++){
-		   if(prefix[n-i-1] - nums[i] < prefix[i])
+		   if(prefix[n] - prefix[i+1] + nums[i+1] < prefix[i])
 		    count++;
 		}
 		System.out.println(count);
