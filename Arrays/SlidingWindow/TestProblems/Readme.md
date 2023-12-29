@@ -18,6 +18,8 @@ Find a contiguous subarray whose length is equal to k that has the maximum avera
  
 Maximum average is (12-5-6+50)/4 = 51/4 = 12.75
 
+<img src="https://github.com/Syed-Javith/Winter-Camp-DSA/blob/master/Arrays/SlidingWindow/TestProblems/image%20(1).png"/>
+
 # LargestSumSubArray
 
 Given an integer array nums and an integer k, find the sum of the subarray with the largest sum whose length is k.
@@ -31,6 +33,8 @@ Given an integer array nums and an integer k, find the sum of the subarray with 
 ## Output
 
 18
+
+<img src="https://github.com/Syed-Javith/Winter-Camp-DSA/blob/master/Arrays/SlidingWindow/TestProblems/image%20(2).png" />
 
 # MinLengthOfSumGreaterThanK
 
@@ -50,7 +54,7 @@ nums = [1,1,1,0,0,0,1,1,1,1,0], k = 2
 
 ## Explanation
 
-[1,1,1,** 0 **, ** 0 **,1,1,1,1,1,1] Bolded numbers were flipped from 0 to 1, The longest subarray is underlined
+[1,1,1,**0**, **0**,1,1,1,1,1,1] Bolded numbers were flipped from 0 to 1, The longest subarray is underlined
 
 <img src="https://github.com/Syed-Javith/Winter-Camp-DSA/blob/master/Arrays/SlidingWindow/TestProblems/image.png"/>
 
@@ -66,6 +70,8 @@ s = "abciiidef", k = 3
 ## Output
  
 3
+
+<img src="https://github.com/Syed-Javith/Winter-Camp-DSA/blob/master/Arrays/SlidingWindow/TestProblems/image%20(3).png"/>
 
 ## Explanation 
 
