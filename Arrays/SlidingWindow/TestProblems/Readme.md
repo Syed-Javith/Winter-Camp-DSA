@@ -71,8 +71,8 @@ s = "abciiidef", k = 3
  
 3
 
-<img src="https://github.com/Syed-Javith/Winter-Camp-DSA/blob/master/Arrays/SlidingWindow/TestProblems/image%20(3).png"/>
-
 ## Explanation 
 
 The substring "iii" contains 3 vowel letters.
+
+<img src="https://github.com/Syed-Javith/Winter-Camp-DSA/blob/master/Arrays/SlidingWindow/TestProblems/image%20(3).png"/>
