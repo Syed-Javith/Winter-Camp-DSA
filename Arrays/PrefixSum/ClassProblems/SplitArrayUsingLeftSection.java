@@ -1,4 +1,3 @@
-package PrefixSum;
 
 import java.util.Scanner;
 

@@ -1,5 +1,3 @@
-package PrefixSum;
-
 import java.util.Scanner;
 
 public class SplitArrayUsingBruteForce {
