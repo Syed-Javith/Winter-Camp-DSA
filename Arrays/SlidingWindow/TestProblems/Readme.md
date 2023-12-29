@@ -7,7 +7,7 @@ Find a contiguous subarray whose length is equal to k that has the maximum avera
 ## Input
 
 6 <br>
-1 12 -5 -6 50 3
+1 12 -5 -6 50 3 <br>
 4
 
 ## Output
@@ -51,6 +51,8 @@ nums = [1,1,1,0,0,0,1,1,1,1,0], k = 2
 ## Explanation
 
 [1,1,1,** 0 **, ** 0 **,1,1,1,1,1,1] Bolded numbers were flipped from 0 to 1, The longest subarray is underlined
+
+<img src="https://github.com/Syed-Javith/Winter-Camp-DSA/blob/master/Arrays/SlidingWindow/TestProblems/image.png"/>
 
 # VowelsSliding
 
