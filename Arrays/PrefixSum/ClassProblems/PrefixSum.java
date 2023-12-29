@@ -1,27 +1,17 @@
-
-
-import java.util.Scanner;
-
+import java.util.*;
 public class PrefixSum {
-    public static void main(String[] args) {
+    public static void main(String args[]) throws Exception {
         Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int[] nums = new int[n];
-		int[][] queries = {{ 0,3 },{2,5},{2,4}};
-		
-		for(int i = 0 ; i < n ; i++){
-		    nums[i] = sc.nextInt();
-		}
-		int limit = sc.nextInt();
-		int[] prefix = new int[n];
-		prefix[0] = nums[0];
-		for(int i = 1; i < n ; i++){
-		 prefix[i] = prefix[i-1]+nums[i];   
-		}
-		for(int i = 0 ; i < 3 ; i++){
-		    int x = queries[i][0];
-		    int y = queries[i][1];
-		    System.out.println((prefix[y] - prefix[x] + nums[x] < limit)? true : false);
-		}
+        int n = sc.nextInt();
+        int[] a = new int[n];
+        int[] pivot = new int[n];
+        a[0] = pivot[0] = sc.nextInt();
+        int max = 0;
+        System.out.print(pivot[0]+" ");
+        for(int i = 1 ; i < n ; i++){
+            a[i] = sc.nextInt();
+            pivot[i] = pivot[i-1] + a[i];
+            System.out.print(pivot[i] + " ");
+        }
     }
 }
