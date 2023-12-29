@@ -7,7 +7,7 @@ Find a contiguous subarray whose length is equal to k that has the maximum avera
 ## Input
 
 6
-1 12-5-6 50 3
+1 12 -5 -6 50 3
 4
 
 ## Output
@@ -16,7 +16,7 @@ Find a contiguous subarray whose length is equal to k that has the maximum avera
 
 ## Explanation
  
-Maximum average is (12-5-6+50)/451/4 = 12.75
+Maximum average is (12-5-6+50)/4 = 51/4 = 12.75
 
 # LargestSumSubArray
 
