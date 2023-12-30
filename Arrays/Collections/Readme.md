@@ -1,7 +1,5 @@
 # List Operations in Java
 
-## ArrayList
-
 ## Insertion and Addition
 
 ### `void add(int index, E element)`
@@ -62,3 +60,32 @@ Fetches all elements within the given range.
 
 ### `int size()`
 Returns the number of elements present in the list.
+
+
+# Queue Operations in Java
+
+ - use Queue when there is a frequent retreival min and max is required.
+
+## Insertion
+
+### `boolean add(Object o)`
+Inserts the specified element into this queue and returns true upon success.
+
+### `boolean offer(Object o)`
+Inserts the specified element into this queue.
+
+## Removal
+
+### `Object remove()`
+Retrieves and removes the head of this queue.
+
+### `Object poll()`
+Retrieves and removes the head of this queue, or returns null if this queue is empty.
+
+## Inspection
+
+### `Object element()`
+Retrieves, but does not remove, the head of this queue.
+
+### `Object peek()`
+Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.

@@ -1,5 +1,3 @@
-package PrefixSum.TestProblems;
-
 import java.util.*;
 
 public class MaxAltitude {
