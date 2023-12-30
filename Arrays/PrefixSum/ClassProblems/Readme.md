@@ -46,3 +46,11 @@ numArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3
 return the number of such arrays possible
 
 ## Input 
+
+4
+
+10 4 -8 7
+
+## Output
+
+2

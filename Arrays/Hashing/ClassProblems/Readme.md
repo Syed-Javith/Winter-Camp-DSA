@@ -29,3 +29,112 @@
 - **Arrays:** Keys are implicitly defined by integer indices.
 
 - **Hashmaps:** Keys can be of various types, not limited to integers. They can be strings, objects, or any other hashable types.
+
+# Map Operations in Java
+
+## Clearing and Checking
+
+### `void clear()`
+Removes all key-value mappings from this map.
+
+### `boolean isEmpty()`
+Returns true if this map contains no key-value mappings.
+
+## Retrieving Views
+
+### `Set entrySet()`
+Returns a collection view of the mappings contained in this map.
+
+### `Set keySet()`
+Returns a set view of the keys contained in this map.
+
+## Insertion and Modification
+
+### `V put(Object key, Object value)`
+Inserts an entry into the map with the specified key and value.
+
+### `void putAll(Map map)`
+Inserts all entries from the specified map into this map.
+
+### `V remove(Object key)`
+Deletes an entry for the specified key.
+
+### `boolean remove(Object key, Object value)`
+Removes the specified values associated with the specified keys from the map.
+
+## Checking for Values and Keys
+
+### `boolean containsValue(Object value)`
+Returns true if some value equal to the specified value exists within the map, otherwise false.
+
+### `boolean containsKey(Object key)`
+Returns true if some key equal to the specified key exists within the map, otherwise false.
+
+## Retrieving Values
+
+### `V get(Object key)`
+Returns the object that contains the value associated with the specified key.
+
+### `V getOrDefault(Object key, V defaultValue)`
+Returns the value to which the specified key is mapped, or `defaultValue` if the map contains no mapping for the key.
+
+## Information Retrieval
+
+### `boolean isEmpty()`
+Returns true if the map is empty; returns false if it contains at least one key.
+
+### `Collection<V> values()`
+Returns a collection view of the values contained in the map.
+
+### `int size()`
+Returns the number of entries in the map.
+
+## FrequencyEqualInStringUsingHashSet
+
+given a string output if it contains equal number of characters
+
+## Input
+
+abcabc
+
+## Output
+
+true
+
+## MultipleArrayIntersectionHashMap
+
+Given multiple arrays find the intersection of all arrays
+
+## Input 
+
+[ [ 3, 1, 3, 4, 5 ], [ 1, 2, 3, 4 ], [ 3, 4, 5, 6 ] ]
+
+## Output
+
+4
+
+## SubStringWithMaxKUnique
+
+given a string find the maximum length of the array which has atmost k unique elements
+
+## Input
+
+eceab
+
+## Output
+
+3
+
+## SumWithTarget
+
+Given an array and target , check whether the k target sum exists for any pair
+
+## Input
+
+[5,4,6,1,2]
+
+6
+
+## Output
+
+true
