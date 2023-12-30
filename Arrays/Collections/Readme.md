@@ -1,5 +1,7 @@
 # List Operations in Java
 
+## ArrayList
+
 ## Insertion and Addition
 
 ### `void add(int index, E element)`
