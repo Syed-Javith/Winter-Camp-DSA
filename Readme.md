@@ -1,7 +1,8 @@
 ## Syllabus
 
 1.Arrays 
- - two pointers 
+ - Two pointers 
+ - Sliding Window
  - Hashing 
  - Prefix sums
 
