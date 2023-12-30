@@ -1,14 +1,18 @@
 ## Syllabus
-Arrays --> two pointers , Hashing , Prefix sums
 
-Stacks
+1.Arrays 
+    - two pointers 
+    - Hashing 
+    - Prefix sums
 
-Queue
+2.Stacks
 
-DP
+3.Queue
 
-Greedy
+4.DP
 
-Backtracking
+5.Greedy
 
-All Company Questions
+6.Backtracking
+
+7.All Company Questions
