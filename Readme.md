@@ -1,9 +1,9 @@
 ## Syllabus
 
 1.Arrays 
-    - two pointers 
-    - Hashing 
-    - Prefix sums
+ - two pointers 
+ - Hashing 
+ - Prefix sums
 
 2.Stacks
 
