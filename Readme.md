@@ -1,19 +1,14 @@
 ## Syllabus
+Arrays --> two pointers , Hashing , Prefix sums
 
-1.Arrays 
- - Two pointers 
- - Sliding Window
- - Hashing 
- - Prefix sums
+Stacks
 
-2.Stacks
+Queue
 
-3.Queue
+DP
 
-4.DP
+Greedy
 
-5.Greedy
+Backtracking
 
-6.Backtracking
-
-7.All Company Questions
+All Company Questions
