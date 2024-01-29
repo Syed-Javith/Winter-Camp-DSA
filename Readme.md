@@ -1,5 +1,10 @@
 ## Syllabus
-Arrays --> two pointers , Hashing , Prefix sums
+Arrays :
+ - DoublePointers
+ - Hashing
+ - Heap
+ - PrefixSum
+ - SlidingWindow
 
 Stacks
 
