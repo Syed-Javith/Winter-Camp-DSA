@@ -14,7 +14,7 @@ public class HashMapExample {
     //get(key) to get the value
     System.out.println(map.get(1));
 
-    //for looping use entrySet() , getKey() , getValue()
+    //for looping use entrySet() , keySet() , values()
     for(Map.Entry m : map.entrySet()){
         System.err.println( m.getKey() + " " + m.getValue());
     }
